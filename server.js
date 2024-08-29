@@ -16,7 +16,7 @@ const items = [
 // Fuse.js options for fuzzy search
 const options = {
     keys: ['name'],
-    threshold: 0.2,  // Increase tolerance for matches (closer to 1 is more lenient)
+    threshold: 0.4,  // Increase tolerance for matches (closer to 1 is more lenient)
     distance: 100,   // Increase distance tolerance
     minMatchCharLength: 3, // Minimum length of query to consider
 };
