@@ -18,7 +18,7 @@ const options = {
     keys: ['name'],
     threshold: 0.2,  // Increase tolerance for matches (closer to 1 is more lenient)
     distance: 100,   // Increase distance tolerance
-    minMatchCharLength: 4, // Minimum length of query to consider
+    minMatchCharLength: 3, // Minimum length of query to consider
 };
 
 const fuse = new Fuse(items, options);
